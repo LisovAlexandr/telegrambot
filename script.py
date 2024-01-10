@@ -3,7 +3,7 @@ import webbrowser
 from telebot import types
 
 bot=telebot.TeleBot("2120676466:AAGVrRy_TsAnFJDE1AlYktDlXCCiAmtVLks")
-
+#test
 @bot.message_handler(commands=["site","website"])
 def site(message):
   webbrowser.open('https://google.com')
