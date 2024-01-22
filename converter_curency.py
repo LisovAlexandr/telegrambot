@@ -52,7 +52,7 @@ def my_currency(message):
         bot.register_next_step_handler(message, summ)
     except Exception:
         bot.send_message(message.chat.id, 'Что-то не так. Впишите значение заново')
-        bot.register_next_step_handler(message, my_currency)
+        bot.register_next_step_handler(message, my_currency)  
 
 
 
